@@ -38,17 +38,22 @@
   <main>
     <section class="hero" id="home">
       <div class="hero-grid" aria-hidden="true"></div>
-      <img class="hero-portrait" src="assets/images/hero.jpg" alt="Portrait of Abdullah Rauf">
       <div class="container hero-content">
         <div class="hero-copy">
           <h1>Building scalable<br><strong>software for</strong><br><span class="gradient-text">real-world needs.</span></h1>
-          <p class="hero-description">I'm Abdullah Rauf, a full-stack developer building responsive web apps, custom backend systems, and database-driven software.</p>
-          <div class="hero-buttons">
-            <a class="button button-primary" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
-            <a class="button button-outline" href="assets/resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
+          <div class="hero-details">
+            <p class="hero-description">I'm Abdullah Rauf, a full-stack developer building responsive web apps, custom backend systems, and database-driven software.</p>
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline" href="resume.html">Resume <span aria-hidden="true">↗</span></a>
+            </div>
           </div>
         </div>
       </div>
+      <picture class="hero-image">
+        <source media="(max-width: 650px)" srcset="assets/images/no%20background%20image.png">
+        <img class="hero-portrait" src="assets/images/hero.jpg" alt="Portrait of Abdullah Rauf">
+      </picture>
     </section>
 
     <section class="stack-strip" id="stack" aria-label="Languages and tools">
